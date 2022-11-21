@@ -49,24 +49,19 @@ h3 {
 .explore {
     background-image: url(forest.jpg);
     background-size: cover;
-    position: relative;
+    position: absolute;
     width: 100%;
     font-size: larger;
     height: 100%;
     color: white;
-    display: grid;
-    align-items: flex-start;
-    justify-content: center;
-    /* background-color: sienna; */
 }
 
 .text {
-    /* background-color: black; */
     width: fit-content;
     height: fit-content;
-    margin-top: 45%;
+    margin: 10%;
+    margin-left: 38%;
     text-align: center;
-    /* background-color: blue; */
 }
 
 p {
@@ -76,7 +71,7 @@ p {
     /* background-color: chartreuse; */
 }
 
-button {
+.b1 {
     transition: all 0.5s ease;
     color: #fff;
     border: 1px solid white;
@@ -91,7 +86,112 @@ button {
     border-radius: 44px;
 }
 
-button:hover {
+.b1:hover {
     color: #001f3f;
     background-color: #fff;
 }
+
+.explore-more {
+    height: 15%;
+    width: 80%;
+    outline: none;
+    color: #2596be;
+    font-size: large;
+    line-height: 1;
+    border-radius: 90px;
+    background-color: white;
+    border: 2px solid blue;
+    margin-left: 10%;
+}
+
+.explore-nav {
+    position: absolute;
+    height: 58%;
+    position: inherit;
+    width: 16%;
+    margin: 2%;
+    margin-left: 5%;
+    /* background-color: #001f3f; */
+    display: flex;
+    /* justify-content: center; */
+    /* align-items: center; */
+}
+
+.explore-nav1 {
+    /* background-color: #001f3f; */
+    /* position: inherit; */
+    height: 58%;
+    position: relative;
+    width: 16%;
+    margin: 2%;
+    margin-left: 25%;
+    bottom: 80%;
+    display: flex;
+}
+
+.person {
+    position: inherit;
+    height: 100%;
+    width: 100%;
+    border: 1px solid #2596be;
+    border-radius: 40px;
+    background-color: wheat;
+}
+
+.text1 {
+    height: fit-content;
+    width: fit-content;
+    float: left;
+    margin-left: 85px;
+    top: 68%;
+    position: absolute;
+    opacity: 0.5;
+}
+
+.text2 {
+    height: fit-content;
+    position: absolute;
+    float: left;
+    width: fit-content;
+    top: 72%;
+    margin-left: 90px;
+    font-weight: bold;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.world {
+    position: inherit;
+    height: 100%;
+    width: 100%;
+    border: 1px solid #2596be;
+    border-radius: 70px;
+    background-color: wheat;
+}
+
+.text3 {
+    height: fit-content;
+    width: fit-content;
+    float: left;
+    margin-left: 85px;
+    top: 68%;
+    position: absolute;
+    opacity: 0.5;
+}
+
+.text4 {
+    height: fit-content;
+    position: absolute;
+    float: left;
+    width: fit-content;
+    top: 72%;
+    margin-left: 90px;
+    font-weight: bold;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+
+/* .b2 {
+    position: absolute;
+
+    float: right;
+} */
