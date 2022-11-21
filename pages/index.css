@@ -13,17 +13,15 @@
     background-color: rgb(69, 178, 193);
 }
 
-img {
+.logo {
     height: inherit;
     position: inherit;
-    size: inherit;
 }
 
 .nav-logo {
     height: 75px;
     position: inherit;
     margin-left: 10%;
-    background-color: blueviolet;
     width: 14%;
 }
 
@@ -36,17 +34,64 @@ img {
 }
 
 h3 {
-    /* border-top-style: solid;
-    border-bottom-width: 1px; */
     float: left;
     margin-left: 8%;
     color: whitesmoke;
-    /* margin: 7%; */
 }
 
 .h3:hover {
-    text-decoration: overline;
+    text-decoration: overline solid;
     /* border-top-style: solid;
     border-bottom-width: 1px; */
     color: whitesmoke;
+}
+
+.explore {
+    background-image: url(forest.jpg);
+    background-size: cover;
+    position: relative;
+    width: 100%;
+    font-size: larger;
+    height: 100%;
+    color: white;
+    display: grid;
+    align-items: flex-start;
+    justify-content: center;
+    /* background-color: sienna; */
+}
+
+.text {
+    /* background-color: black; */
+    width: fit-content;
+    height: fit-content;
+    margin-top: 45%;
+    text-align: center;
+    /* background-color: blue; */
+}
+
+p {
+    height: auto;
+    width: auto;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    /* background-color: chartreuse; */
+}
+
+button {
+    transition: all 0.5s ease;
+    color: #fff;
+    border: 1px solid white;
+    font-family: "Montserrat", sans-serif;
+    /* text-transform: uppercase; */
+    text-align: center;
+    line-height: 2;
+    font-size: 15px;
+    background-color: transparent;
+    padding: 10px;
+    outline: none;
+    border-radius: 44px;
+}
+
+button:hover {
+    color: #001f3f;
+    background-color: #fff;
 }
