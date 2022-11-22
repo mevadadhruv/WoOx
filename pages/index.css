@@ -111,14 +111,42 @@ p {
     width: 16%;
     margin: 2%;
     margin-left: 5%;
-    /* background-color: #001f3f; */
     display: flex;
     /* justify-content: center; */
     /* align-items: center; */
 }
 
+.person {
+    position: inherit;
+    height: 80%;
+    width: 100%;
+    border: 1.5px solid #2596be;
+    border-radius: 50% 50% 50% 50%;
+    /* border-spacing: 19%; */
+}
+
+.text1 {
+    height: fit-content;
+    width: fit-content;
+    float: left;
+    margin-left: 85px;
+    top: 67%;
+    position: absolute;
+    opacity: 0.5;
+}
+
+.text2 {
+    height: fit-content;
+    position: absolute;
+    float: left;
+    width: fit-content;
+    top: 70.5%;
+    margin-left: 88px;
+    font-weight: bold;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
 .explore-nav1 {
-    /* background-color: #001f3f; */
     /* position: inherit; */
     height: 58%;
     position: relative;
@@ -129,43 +157,13 @@ p {
     display: flex;
 }
 
-.person {
-    position: inherit;
-    height: 100%;
-    width: 100%;
-    border: 1px solid #2596be;
-    border-radius: 40px;
-    background-color: wheat;
-}
-
-.text1 {
-    height: fit-content;
-    width: fit-content;
-    float: left;
-    margin-left: 85px;
-    top: 68%;
-    position: absolute;
-    opacity: 0.5;
-}
-
-.text2 {
-    height: fit-content;
-    position: absolute;
-    float: left;
-    width: fit-content;
-    top: 72%;
-    margin-left: 90px;
-    font-weight: bold;
-    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-}
-
 .world {
     position: inherit;
-    height: 100%;
-    width: 100%;
-    border: 1px solid #2596be;
-    border-radius: 70px;
-    background-color: wheat;
+    height: 80%;
+    width: 90%;
+    border: 1.5px solid #2596be;
+    border-radius: 55% 55% 55% 55%;
+    bottom: auto;
 }
 
 .text3 {
@@ -173,7 +171,7 @@ p {
     width: fit-content;
     float: left;
     margin-left: 85px;
-    top: 68%;
+    top: 9.5%;
     position: absolute;
     opacity: 0.5;
 }
@@ -183,15 +181,98 @@ p {
     position: absolute;
     float: left;
     width: fit-content;
-    top: 72%;
-    margin-left: 90px;
+    top: 47%;
+    margin-left: 88px;
     font-weight: bold;
     font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 
+.explore-nav2 {
+    height: 58%;
+    position: relative;
+    width: 16%;
+    /* background-color: #001f3f; */
+    margin: 2%;
+    margin-left: 45%;
+    bottom: 159%;
+    display: flex;
+}
 
-/* .b2 {
+.home-img {
+    position: inherit;
+    height: 100%;
+    width: 35%;
+    border: 2px solid #2596be;
+    border-radius: 50%;
+    /* bottom: 5%; */
+    /* background-color: gold; */
+}
+
+#home {
+    position: inherit;
+    height: 30%;
+    font-size: 25px;
+    color: #2596be;
+    width: 30%;
+    margin: 27%;
+    margin-top: 25%;
+}
+
+.text5 {
+    height: fit-content;
+    width: fit-content;
+    float: left;
+    margin-left: 85px;
+    top: 9.5%;
     position: absolute;
+    opacity: 0.5;
+}
 
-    float: right;
-} */
+.text6 {
+    height: fit-content;
+    position: absolute;
+    float: left;
+    width: fit-content;
+    /* background-attachment: fixed; */
+    top: 47%;
+    margin-left: 88px;
+    font-weight: bold;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.explore-button {
+    height: 50%;
+    position: relative;
+    width: 13%;
+    margin: 2.5%;
+    margin-left: 83%;
+    text-align: center;
+    bottom: 238%;
+    display: flex;
+    /* background-color: #001f3f; */
+}
+
+.b2 {
+    height: fit-content;
+    position: absolute;
+    width: 100%;
+    top: 3%;
+    transition: all 0.5s ease;
+    color: #fff;
+    border: 1px solid white;
+    font-family: "Montserrat", sans-serif;
+    /* text-transform: uppercase; */
+    text-align: center;
+    line-height: 2;
+    font-size: 15px;
+    background-color: #2596be;
+    padding: 10px;
+    outline: none;
+    border-radius: 44px;
+}
+
+.b2:hover {
+    color: #2596be;
+    background-color: white;
+    border: 2px solid black;
+}
