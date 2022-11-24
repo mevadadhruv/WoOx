@@ -468,6 +468,11 @@ h3 {
     background-color: green;
 }
 
+.text-h1 {
+    position: absolute;
+    background-color: aqua;
+}
+
 .center-grid {
     position: absolute;
     margin-top: 17%;
@@ -487,10 +492,53 @@ h3 {
     background-color: #001f3f;
 }
 
-
-/* .center-map {
-    position: absolute;
+.grid-box1 {
     width: 100%;
-    height: 10%;
+    height: 30%;
+    position: absolute;
+    /* bottom: 0px; */
+    /* left: 35%; */
+    /* right: 50%; */
+    background-color: aqua;
+}
+
+.grid-image {
+    width: 35%;
+    height: 100%;
+    position: absolute;
+    background-color: brown;
+}
+
+.grid-button {
+    width: 15%;
+    height: 20%;
+    right: 0;
+    position: absolute;
+    background-color: black;
+}
+
+.grid-box2 {
+    width: 100%;
+    height: 30%;
+    position: absolute;
+    top: 30%;
+    background-color: forestgreen;
+}
+
+.grid-box3 {
+    width: 100%;
+    height: 30%;
+    position: absolute;
+    top: 60%;
     background-color: gray;
-} */
+}
+
+.center-map {
+    position: absolute;
+    width: 25%;
+    height: 70%;
+    top: 133.5%;
+    left: 70%;
+    border-radius: 20px;
+    background-color: cornflowerblue;
+}
