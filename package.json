@@ -1,0 +1,22 @@
+{
+  "name": "randomwoox",
+  "version": "1.0.0",
+  "description": "\"# WoOx\"",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mevadadhruv/WoOx.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mevadadhruv/WoOx/issues"
+  },
+  "homepage": "https://github.com/mevadadhruv/WoOx#readme",
+  "dependencies": {
+    "@googlemaps/js-api-loader": "^1.15.1"
+  }
+}
